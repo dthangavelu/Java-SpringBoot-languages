@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+
+body{
+	padding: 15px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.ui_errors"{
+	color:red;
+	font-weight: bold;	
+}
